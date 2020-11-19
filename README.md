@@ -25,5 +25,11 @@
 						> somehow flag/store voyage IDs
 						> get count (how many voyages/MMSIs hit Ptown in X time pd)
 							> visualize / plot this count, compare dif time pds?
+	- Jup_PTown
+		> (done)
+			> create point object for Ptown
+		> (to do)
+			> if shipping points go within X dist of this point..flag as 'hit ptown'
+				(need to draw out baby steps for this)
 							
  
