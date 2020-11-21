@@ -30,6 +30,19 @@
 			> create point object for Ptown
 		> (to do)
 			> if shipping points go within X dist of this point..flag as 'hit ptown'
-				(need to draw out baby steps for this)
+				(need to draw out baby steps for this) .. tried a loop method, nogo
+	- Jup_Near
+		> (done)
+			> imports arcpy, sets env to overwrite output
+			> sets inputs
+				+ ship points (ShipsCCB_cluster)
+				+ ports (both are FCs I exported from ship's att table selection in Arc)
+					> PTown
+					> Canal
+			> runs Near analysis	
+				~ two fields are added to input table
+					> NearDist (= distance in meters from port)
+						--> within search radius = value, outside radius = -1 (null)
+					> NearFC (= the FC the point is within 100m from)
 							
  
