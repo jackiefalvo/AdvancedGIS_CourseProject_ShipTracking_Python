@@ -1,8 +1,8 @@
 RunJup_ArcGIS-clone.bat
 Spyder_ENV859-py3.bat
-.ipynb_checkpoints
-.spyproject
-.gitattributes
+README_old.md
+Spy_BroadcastPoints.py
+Jup_*
 Jup_ArcGis-clone.bat
 Jup_Broadcast.ipynb
 Jup_GeoPandas.ipynb
@@ -10,5 +10,4 @@ Jup_gis.bat
 Jup_Near.ipynb
 Jup_PTown.ipynb
 Jup_TEST_basemap.bat
-README_old.md
-Spy_BroadcastPoints.py 
+ 
